@@ -42,7 +42,7 @@ RAG（Retrieval-Augmented Generation，檢索增強生成）是先從文件找�
 
 | 層級 | 技術 | 用途 | 選擇原因 |
 |---|---|---|---|
-| 語言 | Python 3.11 | 後端與 RAG 流程 | AI 工具最完整，也能補上履歷中 Python 較弱的部分 |
+| 語言 | Python 3.11 | 後端與 RAG 流程 | AI 與 RAG 相關套件最完整 |
 | 後端 | FastAPI | 提供 HTTP API | 語法簡潔，內建 Swagger 文件 |
 | 前端 | Vue 3 + TypeScript | 上傳與聊天介面 | 開發者已有 Vue 經驗 |
 | 資料庫 | PostgreSQL 17 + pgvector | 存文字與向量，並做相似度搜尋 | 同一個資料庫就能處理一般資料和向量 |
@@ -52,7 +52,7 @@ RAG（Retrieval-Augmented Generation，檢索增強生成）是先從文件找�
 | 回答模型 | `qwen3:8b` | 產生回答 | 見「Ollama 模型」 |
 | 文件解析 | pypdf、python-docx | 讀取 PDF、Word | 純 Python，安裝簡單 |
 
-刻意不使用 LangChain。這個專案也用來學習，自己寫才看得懂每一步，面試時也講得清楚。
+刻意不使用 LangChain：需要細部控制切塊、距離門檻和引用來源，詳見 [PROJECT_OVERVIEW.md](PROJECT_OVERVIEW.md) 的常見問題。
 
 ### Python 套件
 
