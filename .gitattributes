@@ -1,0 +1,5 @@
+# 文字檔在 repo 裡統一用 LF；二進位檔不做換行轉換
+* text=auto
+*.pdf binary
+*.docx binary
+*.ps1 text eol=crlf

@@ -1,0 +1,27 @@
+# Python
+.venv/
+__pycache__/
+.pytest_cache/
+
+# 前端
+node_modules/
+dist/
+
+# 金鑰和環境設定：任何 .env 都不上傳（.env.example 範本除外）
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# 執行時產生的檔案
+uploads/
+*.log
+
+# 編輯器和 AI 工具的個人設定
+.vscode/
+.idea/
+.claude/
+
+# 個人筆記：保留在本機，不上傳
+docs/新舊版本比較.md

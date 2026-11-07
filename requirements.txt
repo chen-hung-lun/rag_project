@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+python-multipart
+ollama
+httpx
+psycopg[binary]
+pgvector
+numpy
+pypdf
+python-docx
